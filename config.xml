@@ -13,7 +13,8 @@
   <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1"/>
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <icon src="icon.png"/>
-  <splash src="splash.png" />
+  <splash src="splash.png" width="200" height="200" />
+  <preference name="BackgroundColor" value="0xffffffff"/>
   <access origin="*"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
