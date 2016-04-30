@@ -51,8 +51,25 @@ iframe {
 }
 
 .loading {
-    background-image: url(../img/ajax-loader.gif);
+    background: none;
+    border: 5px solid #aaa;
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-animation: loading 1s infinite linear;
+    -moz-animation: loading 1s infinite linear;
+    -o-animation: loading 1s infinite linear;
+    animation: loading 1s infinite linear;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
 }
+
 
 h1 {
     font-size:24px;
@@ -97,4 +114,37 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+@-webkit-keyframes loading {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes loading {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes loading {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
