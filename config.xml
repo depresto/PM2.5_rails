@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="net.sytes.pm25" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="net.sytes.pm25" version="1.0.1">
   <name>PM2.5</name>
   <description>PM2.5 Predict App.</description>
   <author href="https://www.facebook.com/Wayne.Huang.g" email="wayne123tw@gmail.com">Wayne Huang</author>
